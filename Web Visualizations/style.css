@@ -1,0 +1,86 @@
+<style>
+* {
+box-sizing: border-box;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  float: right;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:white;
+  color: black;
+}
+</head>
+
+a{                                                                                                                                                                                                                                                                                    lor: white;
+  font-size: 200 pt;
+  display: inline;
+  font-style: bold;
+  font-display: center;
+  background-color: rgb(38, 199, 185);
+  border: 1 px solid rgb(38, 199, 185);
+  padding: 30px;
+  }
+
+body {
+  background-color: lightgrey;
+  box-sizing: border-box;
+  position: relative;
+  margin: 10px 10px 10px 10px;
+  }
+
+div{
+  background-color: white;
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(38, 199, 185);
+  background-color: white;
+}
+  
+h2 {
+  font-size: 22px;
+  }
+
+p{
+  font-size: 18px;
+  color:black;
+  background-color: white;
+  box-sizing: border-box;
+  }
+
+.container{
+  margin-top: 2%;
+}
+  
+  
+  .latitude {
+  font-family: verdana;
+  font-size: 45px;
+  background-color: rgb(8, 199, 185);
+  border: 1px solid rgb(8, 199, 185);
+  padding: 15px;
+  }
+
+.row1{
+background-color: white;
+}
+.col-md-6{
+  float: right;
+}
+
+</style>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Required meta tags -->
+<title>Wind Speed</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap & CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="mapsstyle.css">
+</head>
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" target="_blank" href="index.html">Latitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav navbar-right">
+            <li class="nav-item active">
+                <a class="nav-link" target="_blank" href="Comparisons.html">Comparison<span
+                        class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" target="_blank" href="data.html">Data</a>
+            </li>
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="true">
+                    Plots
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a target="_blank" href="MaxTemp.html">Max Temperature</a></li>
+                    <li><a target="_blank" href="Humidity.html">Humidity</a></li>
+                    <li><a target="_blank" href="Cloudiness.html">Cloudiness</a></li>
+                    <li><a target="_blank" href="windspeed.html">Windspeed</a></li>
+                </ul>
+            </div>
+        </ul>
+    </div>
+</nav>
+
+<body>
+<!--Section-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6"></div>
+            <h1>Wind Speed</h1>
+            <hr />
+            <img src="assets/images/windmap.png" width="450" height="450" padding>
+            <p>Based on the graph, there are stronger winds beyond the 42 degree latitude range.
+            Wind speeds appear to be constant (~2-15 mph) between -60 to 60 degrees latitude.
+            </p>
+        </div>
+        <hr />
+<!--first row of graphs-->
+        <div class="row">
+            <div class="col-md-6">
+                <a target="_blank" href="assets/images/temperaturemap.png">Max Temperature<img
+                        src="assets/images/temperaturemap.png" width="350px" height="300px"></a>
+            </div>
+            <div class="col-md-6">
+                <a href="assets/images/humiditymap.png">Humidity<img target="_blank" src="assets/images/humiditymap.png"
+                        width="350px" height="300p"></a>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+<!--second row of graphs-->
+        <div class="row">
+            <div class="col-md-6">
+                <a target="_blank" href="assets/images/cloudymap.png">Cloudiness<img src="assets/images/cloudymap.png"
+                        width="350px" height="300p"></a>
+            </div>
+            <div class="col-md-6">
+                <a target="_blank" href="assets/images/windmap.png">Wind Speed<img src="assets/images/windmap.png"
+                        width="350px" height="300p"></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

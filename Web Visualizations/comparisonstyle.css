@@ -1,0 +1,46 @@
+<style>
+* {
+box-sizing: border-box;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  float: right;
+  max-width: 100%;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:white;
+  color: black;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  margin: 10px 10px 10px 10px;
+  background-color: lightgrey;
+}
+.container {
+  background-color: white;
+  margin-top: 2%;
+
+}
+h1{
+  color:rgb(38, 199, 185);
+  
+}
+h2{
+  font-size: medium;
+}
+.row{
+  margin: auto;
+}
+
+
+
+

@@ -1,0 +1,55 @@
+<style>
+* {
+box-sizing: border-box;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  float: right;
+}
+/* Change color on hover */
+.topnav a:hover {
+  background-color:white;
+  color: black;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.container{
+  background-color: white;
+  margin-top: 2%;
+}
+.row1{
+  margin-top: 2%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    }
+
+th, td {
+  padding: 0px;
+}
+
+h1{
+  color:rgb(38, 199, 185);
+  
+}
+h2{
+  font-size: medium;
+
+
+
+
+
+
+
+</style>
